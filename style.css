@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 300px;
+}
+
+.bloco {
+    width: 100%;
+    height: 10px;
+    background-color: tomato;
+}
+
+.box {
+    width: 100%;
+    height: 390px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#p1 {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: rgb(80, 44, 165);
+    position: relative;
+    z-index: 1;
+}
+
+#p2 {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: rgb(170, 143, 52);
+    position: relative;
+    z-index: 1;
+    animation: animate2 2s ease-in-out infinite;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 100%;
+        border: dotted 3px black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    50% {
+        transform: rotate(200deg);
+        border-radius: 100%;
+        border: dotted 3px black;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 100%;
+        border: dotted 3px black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+#p3 {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: rgb(45, 156, 119);
+    position: relative;
+    z-index: 1;
+}
+
+#p4 {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: rgb(187, 66, 66);
+    position: relative;
+    z-index: 1;
+}
+
+.bot {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.bot:hover {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    margin: 5px;
+}
