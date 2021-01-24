@@ -31,6 +31,6 @@ function precoUva(a,b) {
     return(a+b)
 }
 
-console.log("O preco da OLVELHA é: ",precoUva(2,20))
+console.log("O preco do Carneiro é : ",precoUva(2,20))
 var time = new Date();
 console.log("Hora exata: ",time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
