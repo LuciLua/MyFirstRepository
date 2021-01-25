@@ -35,32 +35,11 @@ li{
     display: inline;
 }
 
-.box{
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    top: 60px;
-    background-color: tomato;
-    height: 300px;
-    max-width: 95%;
-}
-
 .tex{
     text-align: center;
     position: relative;
-    top: 125px;
-    margin-left: 20px;
-    box-shadow: #292929 2px 2px 2px;
-    background-color: rgb(238, 238, 238);
     color: rgb(41, 41, 41);
-    height: 25px;
-    width: 200px;
     font-size: 15px;
     text-transform: uppercase;
     font-family:'Hachi Maru Pop', cursive;
-}
-
-#btn{
-    height: 30px;
-    cursor: pointer;
 }
