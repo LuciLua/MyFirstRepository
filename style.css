@@ -37,8 +37,7 @@ li{
 
 .tex{
     text-align: center;
-    position: relative;
-    color: rgb(41, 41, 41);
+    color: tomato;
     font-size: 15px;
     text-transform: uppercase;
     font-family:'Hachi Maru Pop', cursive;
