@@ -4,12 +4,12 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0;
-    background-color: #292929;
+    background-color: #ffffff;
 }
 .main{
     height: 90px;
     background-color: rgb(11, 227, 255);
-    box-shadow: rgb(0, 0, 0) 5px 2px 10px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
     margin: 0;
     padding: 0;
 }
@@ -37,80 +37,71 @@ a:hover{
 color: rgb(92, 92, 92);
 transition: 0.7s;
 }
-.para{
+.posts{
     padding: 20px;
     max-height: 90%;
-    border: 2px black solid;
+    border: 2px transparent solid;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
 }
 #tex{
-    color: rgb(95, 129, 134);
+    color: rgb(39, 39, 39);
     font-size: 20px;
     text-transform: uppercase;
     font-family: monospace;
 }
 
-#col{
+#col-1{
     padding: 10px;
     max-height: 90%;
-    border: 2px rgb(22, 22, 22) solid;
+    border: 2px transparent solid;
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    box-shadow: rgb(27, 27, 27) 10px 5px 2px 0px;
-    background-color: rgb(85, 85, 66);
+    box-shadow: rgba(0, 0, 0, 0.377) 1px 1px 7px 0px;
+    background-color: rgba(143, 245, 228, 0.637);
 }
 #col-2{
     padding: 10px;
     max-height: 90%;
-    border: 2px rgb(22, 22, 22) solid;
+    border: 2px transparent solid;
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     box-shadow: rgb(27, 27, 27) 10px 5px 2px 0px;
-    background-color: rgb(50, 68, 67);
+    background-color: rgb(49, 49, 49);
 }
-#col-3{
-    padding: 10px;
-    max-height: 90%;
-    border: 2px rgb(22, 22, 22) solid;
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+#btn{
+    color: rgb(187, 187, 187);
+    background-color: transparent;
+    border: none;
     position: relative;
-    box-shadow: rgb(27, 27, 27) 10px 5px 2px 0px;
-    background-color: rgb(59, 37, 37);
+    top: -20px;
 }
+
 p{
     font-family: monospace;
     color: #737585;
 }
 
-.mypo{
-    position: relative;
-    max-width: 95%;
-    min-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 200px;
-    min-height: 70px;
-    background-color: rgb(77, 77, 77);
+#txt-init{
+    position: sticky;
+    text-align: center;
+    font-family: monospace;
+    font-size: 70px;
+    max-height: 100%;
+    margin: 0;
+    padding: 120px;
+    background: right;
+    background-image: url(img/Final.png);
 }
-
-#mypo{
+.box{
     position: relative;
-    max-width: 100%;
+    margin: 0;
     min-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 200px;
-    min-height: 70px;
-    background-color: rgb(77, 77, 77); 
-    color: #d1d3df;
-    box-shadow: black 0px 0px 5px 0px;
+    min-height: 300px;
 }
