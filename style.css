@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@400;500&display=swap');
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Comfortaa', cursive;*/
 body{
     width: 100%;
     height: 100%;
@@ -9,9 +11,11 @@ body{
 .main{
     height: 90px;
     background-color: rgb(11, 227, 255);
-    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 0px 5px;
     margin: 0;
     padding: 0;
+    z-index: 4;
+    position: relative;
 }
 ul{
     margin: 0;
@@ -51,9 +55,17 @@ transition: 0.7s;
     font-size: 20px;
     text-transform: uppercase;
     font-family: monospace;
+    text-align: center;
 }
 
-#col-1{
+h3{
+    color: rgb(1, 255, 35);
+    text-shadow: black 1px 1px 1px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#col-1{/*da pagina inicial*/
     padding: 10px;
     max-height: 90%;
     border: 2px transparent solid;
@@ -61,10 +73,11 @@ transition: 0.7s;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.377) 1px 1px 7px 0px;
-    background-color: rgba(143, 245, 228, 0.637);
+    background-color:transparent;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
 }
-#col-2{
+#col-2{/*dos scripts*/
     padding: 10px;
     max-height: 90%;
     border: 2px transparent solid;
@@ -75,20 +88,13 @@ transition: 0.7s;
     box-shadow: rgb(27, 27, 27) 5px 5px 1px 0px;
     background-color: rgb(49, 49, 49);
 }
-#btn{
-    color: rgb(187, 187, 187);
-    background-color: transparent;
-    border: none;
-    position: relative;
-    top: -20px;
-}
 
 p{
     font-family: monospace;
     color: #737585;
 }
 
-#txt-init{
+#txt-init{/*Texto grande inicial*/
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -112,6 +118,7 @@ p{
     min-height: 100%;
     height: 400px;
     background-color: #C4C4C4;
+    z-index: 2;
 }
 #ap{
     color: rgb(255, 255, 255);
@@ -121,4 +128,26 @@ p{
     text-align: center;
     top: 70px;
     cursor: default;
+}
+
+.circle{
+    background-color: chartreuse;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    display: inline-flex;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.329) 0px 0px 10px 1px;
+    
+}
+
+.galery{
+    text-align: center;
+}
+
+.end{
+    background-color: #2e2e2e;
+    height: 100px;
 }

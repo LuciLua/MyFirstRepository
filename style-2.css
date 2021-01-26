@@ -1,7 +1,26 @@
 #im1{
     max-width: 100%;
     position: absolute;
-    height: 400px;
+    max-height: 100%;
     top: 0px;
     z-index: 0;
+}
+
+.imgs{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    max-width: 190%;
+    max-height: 190%;
+    right: -50%;
+    top: 0px;
+
+}
+
+.imgs:hover{
+    transition: 2s;
+    z-index: 4;
+    max-width: 195%;
+    max-height: 195%;
+    right: -52%;
 }
