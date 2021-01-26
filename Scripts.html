@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuciVercel</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style-2.css" type="text/css">
+
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <li class="mini"><a href="index.html">Home</a></li>
+            <li class="mini"><a href="Scripts.html">Scripts</a></li>
+            <li class="mini"><a href="index.html">Contact</a></li>
+        </ul>
+    </div>
+    <section class="slides">
+        <div class="box">
+            <h1 id="txt-init">Luci Lua</h1>
+            <p id="ap">Artista e Programadora</p>
+            <img src="img/Luci.jpg" id="im1" alt="">
+        </div>
+    </section>
+    <div class="posts">
+        <p id="col-2">
+            #Transformice Pulo automatico<br><br>
+            <br>import pyautogui, time, msvcrt, keyboard<br>
+            time.sleep(1)<br>
+            f = open("mensagem", 'r')<br>
+            <br>
+            print(pyautogui.position())<br>
+            <br>
+            while True:<br>
+                if keyboard.is_pressed("<"):<br>
+                <br>
+                    pyautogui.keyDown('left')<br>
+                    time.sleep(0.3)<br>
+                    pyautogui.keyUp('left')<br>
+                    <br>
+                    pyautogui.keyDown('right')<br>
+                    time.sleep(0.008)<br>
+                    pyautogui.keyUp('right')<br>
+                    <br>
+                    pyautogui.keyDown('up')<br>
+                    time.sleep(0.01)<br>
+                    pyautogui.keyUp('up')<br>
+                    <br>
+                if keyboard.is_pressed(">"):<br>
+                <br>
+                    pyautogui.keyDown('right')<br>
+                    time.sleep(0.3)<br>
+                    pyautogui.keyUp('right')<br>
+                    <br>
+                    pyautogui.keyDown('left')<br>
+                    time.sleep(0.008)<br>
+                    pyautogui.keyUp('left')<br>
+                    <br>
+                    pyautogui.keyDown('up')<br>
+                    time.sleep(0.01)<br>
+                    pyautogui.keyUp('up')<br>
+                    <br>
+                    <br>
+                elif keyboard.is_pressed("e"):<br>
+                    break<br>
+                    <br>
+                    <br>
+            else:<br>
+                print('interrompe')<br>
+                exit()<br>
+                <br>
+            '''<br>
+            for word in f:<br>
+            <br>
+                pyautogui.keyDown('right')<br>
+                time.sleep(0.15)<br>
+                pyautogui.keyUp('right')<br>
+                <br>
+                pyautogui.keyDown('up')<br>
+                time.sleep(0.01)<br>
+                pyautogui.keyUp('up')<br>
+                <br>
+                pyautogui.keyDown('left')<br>
+                time.sleep(0.02)<br>
+                pyautogui.keyUp('left')<br>
+                <br>
+            exit()<br>
+            <br>
+            '''<br>
+            <br>
+            '''<br>
+                pyautogui.typewrite(word)<br>
+                pyautogui.press("enter")<br>
+            '''<br>
+        
+        </p>
+        <p id="col-2">
+            #Flood Script<br><br>
+            import pyautogui, time, msvcrt, keyboard, tkinter<br>
+time.sleep(3)<br>
+f = open("mensagem", 'r')<br>
+<br>
+print(pyautogui.position())<br>
+<br>
+pyautogui.alert("Aperte ENTER para flodar\n Aperte E para cancelar")<br>
+<br>
+while True:<br>
+        if keyboard.is_pressed("enter"):<br>
+                for word in f:<br>
+                    pyautogui.typewrite(word)<br>
+                    pyautogui.press("enter")<br>
+                pyautogui.alert("Flodado com sucesso!")<br>
+                break<br>
+        elif keyboard.is_pressed("e"):<br>
+            pyautogui.alert("cancelado")<br>
+            break<br>
+exit()<br>
+     
+        </p>
+    </div>
+
+</body>
+</html>
