@@ -55,6 +55,7 @@
     font-family: 'Comfortaa';
     text-shadow: rgba(102, 102, 102, 0.486) 0px 0px 5px;
     font-size: 15px;
+    z-index: 2;
 }
 
 @media only screen and (max-width: 600px){
@@ -70,8 +71,8 @@
         left: 10px;
         margin-left: -10px;
     }
-    #by{
-        
-
+    #ap{
+        color: transparent;
+        font-size: 0px;
     }
 }
