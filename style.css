@@ -9,13 +9,14 @@ body{
     background-color: #ffffff;
 }
 .main{
-    height: 90px;
+    height:56px;
     background-color: rgb(11, 227, 255);
     box-shadow: rgba(0, 0, 0, 0.562) 0px 0px 5px;
     margin: 0;
     padding: 0;
     z-index: 4;
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 ul{
     margin: 0;
@@ -27,8 +28,19 @@ ul{
     text-transform: uppercase;
     margin-right: 30px;
     position: relative;
-    top: 30px;
+    top: -10px;
     cursor: pointer;
+}
+.mini-2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-right: 3px;
+    position: relative;
+    top: -8px;
+    cursor: pointer;
+    float: right;
 }
 li{
     display: inline;
@@ -50,6 +62,7 @@ transition: 0.7s;
     margin-right: auto;
     margin-top: 40px;
 }
+/*
 #by{
     position: relative;
     text-align: left;
@@ -58,15 +71,26 @@ transition: 0.7s;
     font-family: 'Comfortaa';
     text-shadow: rgba(102, 102, 102, 0.486) 0px 0px 5px;
     font-size: 15px;
-    top: 165px;
 }
+*/
 #tex{
-    color: rgb(39, 39, 39);
+    color: rgb(94, 110, 117);
     font-size: 20px;
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: Poppins;
     text-align: center;
 }
+
+
+.Comp{
+    background-blend-mode: overlay;
+    background-color: rgb(240, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.158) 0px 0px 10px;
+    max-height: 100%;
+    position: relative;
+
+}
+
 
 h3{
     color: rgb(1, 255, 35);
@@ -86,7 +110,10 @@ h3{
     background-color:transparent;
     font-size: 15px;
     font-family: 'Comfortaa', cursive;
+    text-align: justify;
+    color: rgb(108, 109, 117);
 }
+
 #col-2{/*dos scripts*/
     padding: 10px;
     max-height: 90%;
@@ -98,6 +125,19 @@ h3{
     box-shadow: rgb(27, 27, 27) 5px 5px 1px 0px;
     background-color: rgb(49, 49, 49);
 }
+#col-3{/*da pagina contact*/
+    padding: 10px;
+    max-height: 90%;
+    border: 2px transparent solid;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color:transparent;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
 
 p{
     font-family: monospace;
@@ -108,7 +148,7 @@ p{
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: rgba(0, 0, 0, 0.432) 0px 0px 5px;
     font-size: 100px;
     max-height: 100%;
@@ -119,8 +159,22 @@ p{
     background-color: transparent;
     z-index: 2;
     cursor: default;
-
+    animation: animate 4s ease-in infinite;
+    text-shadow:  2px rgb(11, 227, 255);
 }
+@keyframes animate {
+        0%{
+            text-shadow: rgb(11, 227, 255);
+        }
+        50%{
+            text-shadow: 0px 0px 5px rgb(117, 239, 255);
+        }
+        100%{
+            text-shadow: 2px rgb(11, 227, 255);
+
+        }
+    }
+
 .box{
     position: relative;
     margin: 0;
@@ -129,9 +183,12 @@ p{
     height: 400px;
     background-color: #C4C4C4;
     z-index: 2;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+    box-shadow: rgb(85, 96, 99) 0px 4px 7px;
 }
 #ap{
-    color: rgb(255, 255, 255);
+    color: rgba(236, 253, 253, 0.993);
+    text-shadow: rgb(0, 255, 255) 0px 0px 3px;
     font-size: 20px;
     position: relative;
     z-index: 3;
@@ -163,4 +220,8 @@ p{
 .end{
     background-color: #2e2e2e;
     height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }

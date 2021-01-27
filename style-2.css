@@ -17,10 +17,14 @@
 
 }
 
-.imgs:hover{
-    transition: 2s;
-    z-index: 4;
-    max-width: 195%;
-    max-height: 195%;
-    right: -52%;
+ul, li > .redesociais{
+    display: inline-flex;
 }
+
+.icos{
+    width: 50px;
+    position: relative;
+
+}
+
+
