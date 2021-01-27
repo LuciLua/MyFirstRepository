@@ -50,6 +50,16 @@ transition: 0.7s;
     margin-right: auto;
     margin-top: 40px;
 }
+#by{
+    position: relative;
+    z-index: 5;
+    top: 180px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Comfortaa';
+    text-shadow: rgba(102, 102, 102, 0.486) 0px 0px 5px;
+    font-size: 15px;
+}
 #tex{
     color: rgb(39, 39, 39);
     font-size: 20px;
