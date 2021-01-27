@@ -52,13 +52,14 @@ transition: 0.7s;
 }
 #by{
     position: relative;
+    text-align: left;
     z-index: 5;
-    top: 180px;
-    margin-left: 20px;
     color: rgba(255, 255, 255, 0.842);
     font-family: 'Comfortaa';
     text-shadow: rgba(102, 102, 102, 0.486) 0px 0px 5px;
     font-size: 15px;
+    top: 165px;
+    left: 20px;
 }
 #tex{
     color: rgb(39, 39, 39);
@@ -148,6 +149,8 @@ p{
     overflow: hidden;
     position: relative;
     display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.329) 0px 0px 10px 1px;
     
@@ -160,4 +163,6 @@ p{
 .end{
     background-color: #2e2e2e;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
