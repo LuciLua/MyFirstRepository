@@ -131,7 +131,7 @@ p{
 }
 
 .circle{
-    background-color: chartreuse;
+    background-color: rgb(48, 48, 48);
     border-radius: 100%;
     width: 300px;
     height: 300px;
