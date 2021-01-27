@@ -60,17 +60,7 @@ transition: 0.7s;
     margin-right: auto;
     margin-top: 40px;
 }
-/*
-#by{
-    position: relative;
-    text-align: left;
-    z-index: 5;
-    color: rgba(255, 255, 255, 0.842);
-    font-family: 'Comfortaa';
-    text-shadow: rgba(102, 102, 102, 0.486) 0px 0px 5px;
-    font-size: 15px;
-}
-*/
+
 #tex{
     color: rgb(94, 110, 117);
     font-size: 20px;
@@ -147,7 +137,7 @@ p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.432) 0px 0px 5px;
+    text-shadow: rgba(255, 255, 255, 0.993) 0px 0px 5px;
     font-size: 100px;
     max-height: 100%;
     margin: 0;
@@ -216,7 +206,7 @@ p{
 }
 
 .end{
-    background-color: #2e2e2e;
+    background-color: rgb(32, 32, 32);
     height: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
