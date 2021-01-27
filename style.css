@@ -30,17 +30,15 @@ ul{
     position: relative;
     top: -10px;
     cursor: pointer;
+
 }
 .mini-2{
     color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-family: monospace;
-    text-transform: uppercase;
-    margin-right: 3px;
     position: relative;
     top: -8px;
     cursor: pointer;
     float: right;
+    margin-left: 20px;
 }
 li{
     display: inline;

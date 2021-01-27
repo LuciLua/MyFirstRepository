@@ -17,8 +17,20 @@
 
 }
 
-ul, li > .redesociais{
+.redesociais{
     display: inline-flex;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.menu{
+    display: inline-flex;
+    float: left;
+    margin-right: 10px;
+    top: 25px;
+    position: relative;
 }
 
 .icos{
@@ -27,4 +39,9 @@ ul, li > .redesociais{
 
 }
 
+.icos-2{
+    width: 30px;
+    position: relative;
+    margin-right: 10px;
+}
 
