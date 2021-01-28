@@ -48,12 +48,13 @@ a{
     color: rgb(255, 255, 255);
 }
 a:hover{
-color: gold;
+color:  rgb(0, 247, 255);
 transition: 0.7s;
 }
 
 .mini-2:hover{
     filter: invert(0.3);
+    transition: 0.7s;
 }
 .posts{
     padding: 20px;
@@ -79,8 +80,8 @@ transition: 0.7s;
     box-shadow: rgba(0, 0, 0, 0.815) 0px 0px 10px;
     max-height: 100%;
     position: relative;
-    border-left: gold 10px solid;
-    border-right: gold 10px solid;
+    border-left:  rgb(0, 247, 255) 10px solid;
+    border-right:  rgb(0, 247, 255) 10px solid;
 
 }
 
@@ -156,7 +157,7 @@ p{
     max-width: 100%;
     min-height: 100%;
     height: 400px;
-    background-color: gold;
+    background-color: rgba(0, 238, 255, 0.829);
     z-index: 2;
     border-bottom: rgb(65, 65, 65) 0.4px solid;
     box-shadow: rgba(0, 0, 0, 0.342) 0px 4px 110px;
@@ -196,7 +197,7 @@ p{
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
-    margin: 10px;
+    margin: 30px;
     box-shadow: rgba(0, 0, 0, 0.329) 0px 0px 10px 1px;
     image-resolution: 100px;
 }
@@ -208,11 +209,16 @@ p{
 }
 
 .end{
-    border-top: gold 2px solid;
+    border-top:  rgb(0, 247, 255) 2px solid;
     background-color: rgb(14, 14, 14);
     height: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
+}
+#ed{
+    color: rgb(0, 247, 255);
+    text-align: center;
+    font-family: monospace;
 }
