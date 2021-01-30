@@ -69,6 +69,10 @@ transition: 0.7s;
     font-family: 'montserratBOLD';
     src: url('/font/montserrat/Montserrat-Bold.ttf');
 }
+@font-face {
+    font-family: 'PoppinsExLi';
+    src: url('/font/poppins/Poppins-ExtraLight.ttf');
+}
 #tex{
     color: rgb(49, 49, 49);
     font-size: 35px;
@@ -108,7 +112,7 @@ h3{
     position: relative;
     background-color:transparent;
     font-size: 15px;
-    font-family: poppins;
+    font-family: 'PoppinsExLi';
     text-align: justify;
     color: rgb(202, 202, 202);
 }
