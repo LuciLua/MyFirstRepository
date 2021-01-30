@@ -65,11 +65,15 @@ transition: 0.7s;
     margin-right: auto;
     margin-top: 40px;
 }
+@font-face{
+    font-family: Montserrat;
+    src: url('/font/montserrat/Montserrat-Medium.ttf');
+}
 #tex{
     color: rgb(49, 49, 49);
     font-size: 35px;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     text-align: center;
 
 }
