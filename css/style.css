@@ -6,7 +6,7 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0;
-    background-color: #1c1c1f;
+    background-color: #ffffff;
 }
 .main{
     height:56px;
@@ -66,22 +66,23 @@ transition: 0.7s;
     margin-top: 40px;
 }
 #tex{
-    color: rgb(233, 233, 233);
+    color: rgb(49, 49, 49);
     font-size: 35px;
     text-transform: uppercase;
     font-family: 'Montserrat';
     text-align: center;
+
 }
 
 
 .Comp{
     background-blend-mode: overlay;
     background-color: rgb(44, 44, 44);
-    box-shadow: rgba(0, 0, 0, 0.815) 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.89) 0px 0px 6px;
     max-height: 100%;
     position: relative;
-    border-left:  rgb(0, 247, 255) 10px solid;
-    border-right:  rgb(0, 247, 255) 10px solid;
+    border-left:  rgb(0, 247, 255) 5px solid;
+    border-right:  rgb(0, 247, 255) 5px solid;
 
 }
 
@@ -195,17 +196,14 @@ p{
     overflow: hidden;
     position: relative;
     display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 20px;
+    margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.329) 0px 0px 10px 1px;
-    image-resolution: 100px;
 }
 
 .galery{
     text-align: center;
-    max-width: 100%;
-    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .end{
