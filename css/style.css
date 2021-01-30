@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?&family=Montserrat:wght@900&display=swap&family=IM+Fell+French+Canonfamily=Crushed?family=Montserrat+Subrayada:wght@700&display=swap?family=Abril+Fatface&family=Comfortaa:wght@400;500&family=Press+Start+2P&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?&family=Montserrat:wght@900&display=swap&family=IM+Fell+French+Canonfamily=Crushed?family=Montserrat+Subrayada:wght@700&display=swap?family=Abril+Fatface&family=Comfortaa:wght@400;500&family=Press+Start+2P&display=swap');
 /*font-family: 'Abril Fatface', cursive;
 font-family: 'Comfortaa', cursive;*/
 body{
@@ -66,14 +66,14 @@ transition: 0.7s;
     margin-top: 40px;
 }
 @font-face{
-    font-family: Montserrat;
-    src: url('/font/montserrat/Montserrat-Medium.ttf');
+    font-family: 'montserratBOLD';
+    src: url('/font/montserrat/Montserrat-Bold.ttf');
 }
 #tex{
     color: rgb(49, 49, 49);
     font-size: 35px;
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: 'montserratBOLD';
     text-align: center;
 
 }
