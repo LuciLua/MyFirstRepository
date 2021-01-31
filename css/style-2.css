@@ -79,7 +79,7 @@
         left: -30px;
         margin: 5px;
         border-bottom: rgba(255, 255, 255, 0) 2px solid;
-        padding-bottom: 17.8px;
+        padding-bottom: 15.6px;
     }
     .mini:hover{
         font-size: 15px;
@@ -88,7 +88,7 @@
         margin: 5px;
         transition: 0.6s;
         border-bottom: rgb(0, 238, 255) 2px solid;
-        padding-bottom: 17.8px;
+        padding-bottom: 15.6px;
 
     }
 
