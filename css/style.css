@@ -17,6 +17,7 @@ body{
     z-index: 4;
     position: fixed;
     width: 100%;
+    border-bottom: 2px rgba(92, 92, 92, 0.829) solid;
 }
 ul{
     margin: 0;
@@ -30,6 +31,17 @@ ul{
     position: relative;
     top: -10px;
     cursor: pointer;
+    border-bottom: rgba(255, 255, 255, 0) 2px solid;
+    padding-bottom: 17.8px;
+
+
+
+}
+
+.mini:hover{
+    border-bottom: rgb(0, 238, 255) 2px solid;
+    padding-bottom: 17.8px;
+    transition:0.6s;
 
 }
 .mini-2{
@@ -39,23 +51,32 @@ ul{
     cursor: pointer;
     float: right;
     margin-left: 20px;
+    border-bottom: transparent 2px solid;
+    padding-bottom: 10px;
 }
+
+.mini-2:hover{
+    filter: invert(0.3);
+    transition: 0.6s;
+    position: relative;
+
+}
+
 li{
     display: inline;
 }
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    border-bottom: rgba(92, 92, 92, 0) solid 2px;
+    padding-bottom: 18px;
+
 }
 a:hover{
-color:  rgb(0, 247, 255);
-transition: 0.7s;
+    color:  rgb(0, 247, 255);
+
 }
 
-.mini-2:hover{
-    filter: invert(0.3);
-    transition: 0.7s;
-}
 .posts{
     padding: 20px;
     max-height: 90%;
@@ -215,7 +236,7 @@ p{
 }
 
 .end{
-    border-top:  rgb(0, 247, 255) 2px solid;
+    border-top:  rgb(44, 44, 44) 2px solid;
     background-color: rgb(14, 14, 14);
     height: 100px;
     padding-top: 20px;
@@ -224,7 +245,7 @@ p{
     padding-right: 0px;
 }
 #ed{
-    color: rgb(0, 247, 255);
+    color: rgb(63, 63, 63);
     text-align: center;
     font-family: monospace;
 }

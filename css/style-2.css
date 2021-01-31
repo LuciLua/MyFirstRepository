@@ -78,13 +78,52 @@
         top: -8px;
         left: -30px;
         margin: 5px;
+        border-bottom: rgba(255, 255, 255, 0) 2px solid;
+        padding-bottom: 17.8px;
     }
+    .mini:hover{
+        font-size: 15px;
+        top: -8px;
+        left: -30px;
+        margin: 5px;
+        transition: 0.6s;
+        border-bottom: rgb(0, 238, 255) 2px solid;
+        padding-bottom: 17.8px;
+
+    }
+
+    .mini-2{
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: -8px;
+        cursor: pointer;
+        float: right;
+        margin-left: 20px;
+        border-bottom: rgba(109, 139, 141, 0) 2px solid;
+        padding-bottom: -40px;
+    }
+    
+    .mini-2:hover{
+        filter: invert(0.3);
+        transition: 0.2s;
+        position: relative;
+    
+    }
+
     .icos-2{
         width: 24px;
-        bottom: 20px;
+        bottom: 45px;
         left: 10px;
         margin-left: -10px;
+        border-bottom: transparent 2px solid;
+
     }
+
+    .icos-2:hover{
+        border-bottom: rgb(0, 238, 255) 2px solid;
+        padding-bottom: 17.5px;
+    }
+
     #ap{
         color: transparent;
         font-size: 0px;
@@ -101,4 +140,5 @@
         cursor: default;
         top: 90px;
     }
+
 }
